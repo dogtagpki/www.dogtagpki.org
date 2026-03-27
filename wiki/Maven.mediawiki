@@ -84,7 +84,7 @@ To setup Eclipse project:
 <pre>
 $ mvn eclipse:clean
 $ mvn eclipse:eclipse
-$ mvn -Declipse.workspace=<path-to-eclipse-workspace> eclipse:add-maven-repo
+$ mvn -Declipse.workspace=<path-to-eclipse-workspace> eclipse:configure-workspace
 </pre>
 
 See also:
